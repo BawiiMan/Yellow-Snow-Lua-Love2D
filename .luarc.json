@@ -1,0 +1,16 @@
+{
+  "workspace": {
+    "library": [
+      "${3rd}/love2d/library"
+    ]
+  },
+  "runtime": {
+    "version": "LuaJIT"
+  },
+  "diagnostics": {
+    "globals": ["love"]
+  },
+    "diagnostics.disable": [
+        "duplicate-set-field"
+    ]
+}
